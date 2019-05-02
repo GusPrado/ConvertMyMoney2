@@ -1,0 +1,25 @@
+{
+  "name": "convertmymoney",
+  "version": "1.0.0",
+  "description": "currency converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "now-start": "node index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "now": "^15.0.10"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "jest": "^24.7.1"
+  },
+  "jest": {
+    "collectCoverage": true
+  }
+}
