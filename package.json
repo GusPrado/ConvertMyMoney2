@@ -11,14 +11,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
     "lodash": "^4.17.15",
-    "now": "^15.0.10"
+    "mixin-deep": "^2.0.1",
+    "now": "^15.8.7",
+    "set-value": "^3.0.1"
   },
   "devDependencies": {
     "axios": "^0.18.1",
-    "jest": "^24.7.1"
+    "jest": "^24.9.0"
   },
   "jest": {
     "collectCoverage": true
